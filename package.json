@@ -1,5 +1,5 @@
 {
-  "name": "olivierfredon.com",
+  "name": "hugofraissassbuild",
   "version": "0.0.0",
   "description": "Hugo Frais is pretty cool but without SASS he can't be alive!",
   "main": "style.css",
@@ -10,6 +10,9 @@
     "autoprefixer": "^7.2.2",
     "cssnano": "^3.10.0",
     "nodemon": "^1.14.7"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^18.0.0"
   },
   "scripts": {
     "build": "npm run sass-build && npm run postcss-build && npm run minify",
@@ -23,8 +26,5 @@
   },
   "author": "Olivier Fredon",
   "license": "UNLICENSED",
-  "private": true,
-  "devDependencies": {
-    "stylelint-config-standard": "^18.0.0"
-  }
+  "private": true
 }
